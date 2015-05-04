@@ -420,7 +420,7 @@ header img {
 	color: #E65C00;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 	#innerNav ul li {
 		display:block;
 		margin-top: 8px;
