@@ -1,0 +1,444 @@
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+body {
+	background:#F4F4F4;
+}
+nav {
+	min-height:50px;
+	background-color:#F4F4F4;
+	border-bottom: #393939 solid;
+}
+
+#innerNav {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#innerNav h1 {
+	color:#12111;
+	font-family: "Armata",Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.2em;
+	width: 45%;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.main-nav {
+	float:right;
+	margin-top:12px;
+	margin-bottom:10px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.main-nav li a {
+	color: #121111;
+	text-decoration: none;
+	font-size:1.1em;
+	padding: 4px 8px 4px 8px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	transition:all .5s ease; 
+}
+
+.main-nav li a:hover {
+	color: #121111;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #C7C4C4;
+}
+
+header {
+	min-height: 50px;
+	background:#434647;
+	text-align: center;
+}
+
+header img {
+	margin-top:5px;
+	width: 60%; 
+	max-width:960px;
+	min-width:150px;
+}
+
+#contents {
+	min-height: 400px;
+	max-width:960px;
+	margin: 0 auto;
+}
+
+.contentContainer{
+	background: #F4F4F4;
+}
+
+#contents article {
+	max-width: 960px;
+	margin: 0 auto;	
+	width: 50%;
+	margin-right:5%;
+}
+
+#contents .post {
+	max-width: 960px;
+	margin: 0 auto;	
+	width: 70%;
+	margin-right:5%;
+}
+
+#contents article.daily {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#contents article.daily h3 {
+	padding-bottom: 3px;
+	padding-top: 3px;
+	font-size: 1.5em;
+}
+
+#contents article.daily h3.session-divider {
+	text-decoration: underline;
+	margin-top: 20px;
+}
+
+#contents article.daily p {
+	margin: 10px 0 10px 0;
+}
+
+#contents article.daily ul {
+	list-style-image: url('../../staticfile-inprogress/ph.jpg');
+	list-style-position: inside;
+}
+
+#contents article.daily ul#staff{
+	list-style: none;
+}
+
+#contents article.daily ul#staff li {
+	line-height: 2em;
+	font-size: 1.2em;
+}
+
+#contents article.daily .staff-name{
+	font-weight: bold;
+}
+
+#contents article h2 {
+	font-size: 2em;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#contents article h1 {
+	font-size: 2.5em;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+#contents article a:link{
+	text-decoration: none;
+	color:#202020;
+}
+
+#contents article a:visited{
+	text-decoration:none;
+	color:#202020;
+}
+
+#contents artitle a:activate{
+	text-decoration:none;
+	color:#202020;
+}
+
+#contents .post h2 {
+	font-size: 1.1em;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	color:#999595;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#contents article p {
+	font-size: 1.2em;
+	line-height:1.1em;
+}
+
+#contents .post-p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#contents .home-page {
+	width: 100%;
+}
+
+#contents aside {
+	width: 40%;
+	margin-top:20px;
+}
+
+#contents .aside-p {
+	width: 20%;
+	margin-top: 20px;
+}
+
+#contents .aside-p h1{
+	padding-top: 2em;
+	font-size: 1.5em;
+}
+
+#contents .post, #contents .aside-p {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#contents .job {
+	border-bottom: 3px solid #000;
+	padding: 5px;
+	margin: 20px;
+}
+
+#contents li.job h1 {
+	font-size: 1.3em;
+	font-family: sans-serif;
+	padding-top: 5px;
+	margin-bottom: 6px;
+}
+
+#contents li.job h2 {
+	margin-bottom: 3px;
+	font-family: Book Antiqua, Lucida Sans Unicode, Verdana, sans-serif;
+	padding-top: 3px;
+	font-weight: normal;
+}
+
+#contents div.aside-p div.button-big {
+	background: #1B151F;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #F0F0F0;
+	font-size: 1.5em;
+	border: 3px #A4A0A7 solid;
+	border-radius: 4px;
+}
+
+#contents div.aside-p #job-des {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#contents .sidebox {
+	min-height: 100px;
+	background-color: #F4F3F3;
+	margin-bottom: 12px;
+	padding-left: 5%;
+	padding-top:3%;
+	display:inline-block;
+}
+
+#contents .sidebox h2 {
+	font-size:1.2em;
+	color:#211C1C;
+	vertical-align:top;
+	margin-left: 52%;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+
+#contents .storybox {
+	margin-top: 2em;
+}
+
+#contents .storybox-sub {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	color:#AEAEAE;
+	font-size:0.9em;
+}
+
+
+#contents article, #contents aside {
+	display: inline-block;
+	vertical-align:top;
+}
+
+
+#contents .sidebox img{
+	/*max-width: 50%;*/
+}
+
+#contents .sidebox ul{
+	list-style:disc;
+	list-style-position: inside;
+}
+
+#contents .sidebox .auth-tag {
+	color:#838383;
+	margin-left: 52%;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+
+#footer {	
+	min-height: 50px;
+	background:#F4F4F4;
+	color: #121111;
+	margin-top: 10px;
+	padding-top:10px;
+	margin-bottom:10px;
+	text-align: center;
+	border-top:solid;
+	border-top-color:#393939;
+}
+
+#footer ul li {
+	display: inline-block;
+}
+
+
+.main-nav li{
+	position: relative;
+}
+
+.main-nav li .sub-nav {
+	position: absolute;
+	top:100%;
+	left:0;
+	display: none;
+	z-index: 30;
+	margin-top:3px;
+}
+
+.main-nav li:hover .sub-nav {
+	display: block;
+}
+
+.sub-nav li {
+	margin-left:0;
+	/*margin-top: 8px;*/
+}
+
+.sub-nav li a {
+	/*background: #221e1e;*/
+}
+
+.menu-li {
+	width: 150px;
+	background: #221e1e;
+	padding-bottom:3px;
+	padding-top:5px;
+}
+
+
+.menu-li {
+	color: #121111;
+	text-decoration: none;
+	font-size:1.1em;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	transition:all .5s ease; 
+}
+
+.menu-li:hover {
+	color: #121111;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #C7C4C4;
+}
+
+
+
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 960px) {
+	 #contents article p {
+		 margin-left: 20px;
+	 }
+	 #contents article h2 {
+		 margin-left: 20px;
+	 }
+}
+
+@media screen and (max-width: 700px) {
+	#innerNav h1 {
+		width:100%;
+		text-align:center;
+		font-size:1.4em;
+	}
+	
+	
+	#contents article h2 {
+		font-size: 1.2em;
+	}
+	
+	#innerNav ul {
+		float:none;
+		text-align:center;
+	}
+	
+	#contents article h1 {
+		font-size: 2em;
+	}
+
+	#contents article {
+		width: 100%;
+	}
+
+	#contents aside {
+		width: 100%;
+	}
+	
+	#contents .post {
+		width : 100%;
+	}
+	
+	#contents .aside-p {
+		width: 100%;
+	}
+	
+	#contents .storybox {
+		margin-left: 5px;
+		margin-top: 1.5em;
+	}
+}
+
+.readmore {
+	color: #E65C00;
+}
+
+@media screen and (max-width: 400px) {
+	#innerNav ul li {
+		display:block;
+		margin-top: 8px;
+	}
+	
+	#innerNav ul li a {
+		font-size: 1.2em;
+	}
+
+	#contents aside {
+		margin-left: 8px;
+	}
+
+	#contents .aside-p {
+		margin-left: 8px;
+	}
+
+	#contents .daily {
+		margin-left: 8px;
+	}
+}

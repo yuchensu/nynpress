@@ -1,0 +1,245 @@
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+body {
+	background:#221e1e;
+}
+nav {
+	min-height:50px;
+	background-color:#221E1E;
+}
+
+#innerNav {
+	width: 90%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#innerNav h1 {
+	color:#F5F5F5
+	font-family: "Armata",Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1.2em;
+	width: 45%;
+	float:left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.main-nav {
+	float:right;
+	margin-top:12px;
+	margin-bottom:10px;
+}
+
+.main-nav li {
+	display: inline-block;
+	margin-left: 12px;
+}
+
+.main-nav li a {
+	color: #F5F5F5;
+	text-decoration: none;
+	font-size:1.1em;
+	padding: 4px 8px 4px 8px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	transition:all .5s ease; 
+}
+
+.main-nav li a:hover {
+	color: #F5F5F5;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #484848;
+}
+
+header {
+	min-height: 50px;
+	background:#434647;
+	text-align: center;
+}
+
+header img {
+	width: 20%; 
+	max-width:960px;
+	min-width:150px;
+}
+
+#contents {
+	min-height: 400px;
+	max-width:960px; 
+	margin: 0 auto;
+}
+
+.contentContainer{
+	background: #F4F4F4;
+}
+
+#contents article {
+	max-width: 960px;
+	margin: 0 auto;	
+	width: 50%;
+	margin-right:10%;
+}
+
+#contents article h2 {
+	font-size: 2em;
+	padding-top: 10px;
+}
+
+#contents article p {
+	font-size: 1.2em;
+	line-height:1.1em;
+}
+
+#contents .home-page {
+	width: 100%;
+}
+
+#contents aside {
+	width: 30%;
+	margin-top:20px;
+}
+
+#contents .sidebox {
+	min-height: 100px;
+	background-color: #F4F3F3;
+	margin-bottom: 12px;
+	padding-left: 5%;
+	padding-top:3%;
+}
+
+#contents .sidebox h2 {
+	font-size:1.1em;
+	color:#211C1C;
+	margin-bottom: 5px;
+}
+
+#contents article, #contents aside {
+	display: inline-block;
+	vertical-align:top;
+}
+
+#contents .sidebox p {
+	color: #08028D;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+#contents .sidebox img{
+	max-width: 75%;
+}
+
+#contents .sidebox ul{
+	list-style:disc;
+	list-style-position: inside;
+}
+
+footer {	
+	min-height: 50px;
+	background:#221E1E;
+	color: #F5F5F5;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.main-nav li{
+	position: relative;
+}
+
+.main-nav li .sub-nav {
+	position: absolute;
+	top:100%;
+	left:0;
+	display: none;
+	z-index: 30;
+	margin-top:3px;
+}
+
+.main-nav li:hover .sub-nav {
+	display: block;
+}
+
+.sub-nav li {
+	margin-left:0;
+	/*margin-top: 8px;*/
+}
+
+.sub-nav li a {
+	/*background: #221e1e;*/
+}
+
+.menu-li {
+	width: 150px;
+	background: #221e1e;
+	padding-bottom:3px;
+	padding-top:5px;
+}
+
+
+.menu-li {
+	color: #F5F5F5;
+	text-decoration: none;
+	font-size:1.1em;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	transition:all .5s ease; 
+}
+
+.menu-li:hover {
+	color: #F5F5F5;
+	text-decoration: none;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #484848;
+}
+
+
+
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 960px) {
+	 #contents article p {
+		 margin-left: 20px;
+	 }
+	 #contents article h2 {
+		 margin-left: 20px;
+	 }
+}
+
+@media screen and (max-width: 700px) {
+	#innerNav h1 {
+		width:100%;
+		text-align:center;
+		font-size:1.4em;
+	}
+	
+	#contents article p {
+		font-size: 1.0em;
+	}
+	
+	#contents article h2 {
+		font-size: 1.2em;
+	}
+	
+	#innerNav ul {
+		float:none;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#innerNav ul li {
+		display:block;
+	}
+	
+	#innerNav ul li a {
+		font-size: 0.9em;
+	}
+	
+}
