@@ -1,4 +1,4 @@
-# Emerson Web Design Course Project
+# Design Course Project
 
 ---
 
